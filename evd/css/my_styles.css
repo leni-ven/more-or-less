@@ -1,0 +1,33 @@
+/*border of each input column*/
+.frame{
+    border: #00a3c1 solid 1px;
+    border-radius: 5px;"
+}
+
+/*4 div show at 1 row and don't overlap;
+Align on the right, so the html arrangement of this line is 0123 and the actual display is 3210*/
+.viceDiv{
+    float: right;
+    margin-left: 30px;
+}
+
+
+/*main heading for 4 input column*/
+.heading{
+    margin:0 auto;/*place heading in center */
+    padding-top: 15px;/*leave some space between heading and the upper border of each column box*/
+}
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;
+}
+.navbar-padding{
+    padding-top: 3.5rem;
+}
+
+/*fancy font for Result Visualization*/
+@font-face {
+    font-family: 'scrap';
+    src: url('../fonts/scrap_fancy.ttf') format('truetype');
+}
